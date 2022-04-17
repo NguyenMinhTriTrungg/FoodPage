@@ -1,0 +1,35 @@
+*
+{
+    box-sizing: border-box;   
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+input[type=search]
+{
+    color: var(--color1);
+    border: 0rem;
+    outline: none;
+}
+input[type=search]::placeholder
+{
+    color: var(--color1);
+   
+}
+input[type=submit]
+{
+    color: var(--color3);
+    background-color: var(--color2);
+    border: 0rem;
+    outline: none;
+    position: absolute;
+}
+p
+{
+    color: #707070;
+}
