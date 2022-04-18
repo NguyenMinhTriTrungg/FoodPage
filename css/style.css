@@ -2,6 +2,19 @@
 {
     box-sizing: border-box;   
 }
+:root
+{
+    --color1:#2E266F;
+    --color2:#FE043C;
+    --color3:#FFFFFF;
+    --colorp:#707070;
+    --background_color:#FFF5EC;
+    --background_color2:#FFEDDE;
+    --fontsize1:4.35rem;
+    --fontsize2:3rem;
+    --fontsize3:2.25rem;
+    --fontsize4:1.5rem;
+}
 
 body
 {
@@ -37,24 +50,6 @@ p
 html{
     font-size: 16px;
 }
-
-/*root*/
-:root
-{
-    --color1:#2E266F;
-    --color2:#FE043C;
-    --color3:#FFFFFF;
-    --colorp:#707070;
-    --background_color:#FFF5EC;
-    --background_color2:#FFEDDE;
-    --fontsize1:4.35rem;
-    --fontsize2:3rem;
-    --fontsize3:2.25rem;
-    --fontsize4:1.5rem;
-}
-
-
-
 header
 {
     display: flex;
